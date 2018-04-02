@@ -1,0 +1,6 @@
+version: "3"
+services:
+
+  collector:
+    image: andreasjansson/collectd-write-graphite
+    env_file: .env
